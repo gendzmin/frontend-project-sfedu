@@ -21,18 +21,18 @@ export default class Header extends Component {
                         <Navbar.Toggle aria-controls='responsive-navber-nav' />
                         <Navbar.Collapse id='responsive-navbar-nav'>
                             <Nav className='me-auto'>
-                                <Nav.Link href='/'>Home</Nav.Link>
-                                <Nav.Link href='about'>About is</Nav.Link>
-                                <Nav.Link href='contacts'>Contacts</Nav.Link>
-                                <Nav.Link href='blog'>Blog</Nav.Link>
+                                <Nav.Link href='/'>Главная</Nav.Link>
+                                <Nav.Link href='about'>О нас</Nav.Link>
+                                <Nav.Link href='contacts'>Контакты</Nav.Link>
+                                <Nav.Link href='blog'>Новости</Nav.Link>
                             </Nav>
                             <Form className='d-flex right'>
                                 <FormControl
                                     type='text'
-                                    placeholder='Search'
+                                    placeholder='Найти...'
                                     className='me-2'
                                 />
-                                <Button variant='outline-info'>Search</Button>
+                                <Button variant='outline-info'>Поиск</Button>
                             </Form>
 
                         </Navbar.Collapse>
