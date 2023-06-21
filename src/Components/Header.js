@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, Container, Form, FormControl, Button } from 'react-bootstrap';
-import logo from './logo.png'
+import logo from '../assets/logo/logo.png'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from '../Pages/Home.js'
@@ -13,7 +13,7 @@ export default class Header extends Component {
     render() {
         return (
             <>
-                <Navbar sticky='top' collapseOnSelect expand='md' bg='dark' variant='dark'>
+                <Navbar sticky='top' collapseOnSelect expand='xl' bg='dark' variant='dark'>
                     <Container>
                         <Navbar.Brand href='/'>
                             <img
