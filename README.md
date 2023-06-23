@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is **`Difference generator`** - a program that determines the difference between two configuration files and provides it to the user in chosen format.
 
-## Available Scripts
+## Requirements
 
-In the project directory, you can run:
+1. Node.js v17.6
+2. Windows 10 with WSL / macOS 10.15+ / any Linux distributive.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Accepts different configuration file extensions: **`.json`** / **`.yaml`** / **`.yml`**
+* Outputs comparison result in different formats: **`stylish`** / **`plain`** / **`json`**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Settings
 
-### `npm test`
+Default output format is **`stylish`**
+</br>
+For another output format, use the flag *-f* or *--format* with values **`plain`** or **`json`**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone this repository to create a local copy on your computer;  
+2. Open your local repository;  
+3. Use **`npm install`** and **`sudo npm link`** commands.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+***
+```
+gendiff [-h] [-V] [-f] <filepath1> <filepath2>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    Options:
+        -h, --help           output usage information
+        -V, --version        output the version number
+        -f, --format         output format (default: "stylish")
+```
+***
 
-### `npm run eject`
+## Comparison tests
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Test 1
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[ File type: **`plain`** ] [ File extension: **`.json`** ] [ Output format: **`stylish`** ]
+[![asciicast](https://asciinema.org/a/581089.svg)](https://asciinema.org/a/581089)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Test 2
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[ File type: **`plain`** ] [ File extension: **`.yaml & .yml`** ] [ Output format: **`stylish`** ]
+[![asciicast](https://asciinema.org/a/581091.svg)](https://asciinema.org/a/581091)
 
-## Learn More
+#### Test 3
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[ File type: **`nested`** ] [ File extension: **`.json`** ] [ Output format: **`stylish`** ]
+[![asciicast](https://asciinema.org/a/581098.svg)](https://asciinema.org/a/581098)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Test 4
 
-### Code Splitting
+[ File type: **`plain`** ] [ File extension: **`.json`** ] [ Output format: **`plain`** ]
+[![asciicast](https://asciinema.org/a/581101.svg)](https://asciinema.org/a/581101)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Test 5
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[ File type: **`plain`** ] [ File extension: **`.json`** ] [ Output format: **`json`** ]
+[![asciicast](https://asciinema.org/a/581102.svg)](https://asciinema.org/a/581102)

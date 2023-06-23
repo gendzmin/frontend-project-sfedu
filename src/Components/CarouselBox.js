@@ -73,7 +73,7 @@ export default class CarouselBox extends Component {
                         alt='Ladder'
                     />
                     <Carousel.Caption>
-                        <h3>Большая лестница</h3>
+                        <h3>Мраморная лестница</h3>
                         <p>Хогвартс | Интерьер</p>
                     </Carousel.Caption>
                 </Carousel.Item>
