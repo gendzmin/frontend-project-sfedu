@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import Tabs from '../Components/Tabs';
+
 
 export default class About extends Component {
     render() {
         return (
-            <div>
-                About is here!
-            </div>
+            <Tabs />
         )
     }
 }
