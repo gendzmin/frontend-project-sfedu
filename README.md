@@ -1,10 +1,8 @@
 ## Description
-## Description
 
-This is **`Hogwarts-Web`** - a simple React Bootstrap website for Hogwarts school.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is **`Hogwarts-Web`** - a simple React Bootstrap website for Hogwarts school.  
+It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Requirements
 ## Requirements
 
 1. Node.js v17.6
@@ -18,7 +16,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. Open your local repository;  
 3. Use **`make start`** command.
 
-#### Test 3
+## Learn More
 
-[ File type: **`nested`** ] [ File extension: **`.json`** ] [ Output format: **`stylish`** ]
-[![asciicast](https://asciinema.org/a/581098.svg)](https://asciinema.org/a/581098)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
