@@ -16,6 +16,19 @@ It was bootstrapped with [Create React App](https://github.com/facebook/create-r
 2. Open your local repository;  
 3. Use **`make start`** command.
 
+## Preview
+#### 1. Main
+![slider](/src/assets/demo/slider.png)
+
+#### 2. Tabs
+![tabs](/src/assets/demo/tabs.png)
+
+#### 3. Contacts
+![contacts](/src/assets/demo/contacts.png)
+
+#### 4. News
+![news](/src/assets/demo/news.png)
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
