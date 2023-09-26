@@ -18,16 +18,16 @@ It was bootstrapped with [Create React App](https://github.com/facebook/create-r
 
 ## Preview
 #### 1. Main
-![slider](/src/assets/demo/slider.png)
+![slider](/src/assets/preview/slider.png)
 
 #### 2. Tabs
-![tabs](/src/assets/demo/tabs.png)
+![tabs](/src/assets/preview/tabs.png)
 
 #### 3. Contacts
-![contacts](/src/assets/demo/contacts.png)
+![contacts](/src/assets/preview/contacts.png)
 
 #### 4. News
-![news](/src/assets/demo/news.png)
+![news](/src/assets/preview/news.png)
 
 ## Learn More
 
